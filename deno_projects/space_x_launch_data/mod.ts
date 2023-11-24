@@ -1,4 +1,4 @@
-import { Application } from "https://deno.land/x/oak/mod.ts";
+import { Application, send } from "https://deno.land/x/oak/mod.ts";
 
 const app = new Application();
 const PORT = 8000;
@@ -16,6 +16,16 @@ app.use(async (ctx, next) => {
   ;
   ctx.response.headers.set("X-Response-Time", `${delta}ms`);
 });
+
+app.user(async (ctx) => {
+  const filePath = ctx.request.url.pathname;
+  const fileWhitelist = [
+    "/index.html"
+  ]
+  await send(ctx, filePath, {
+    root: `${Deno.cwd()},public`
+  });
+})
 
 app.use(async (ctx, next) => {
   ctx.response.body = "Mission Control API";
