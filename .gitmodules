@@ -1,0 +1,4 @@
+[submodule "typescript_projects"]
+	path = typescript_projects
+	url = https://github.com/Njordrenterprises/ztm-typescript
+
