@@ -1,3 +1,6 @@
 [submodule "typescript_projects"]
 	path = typescript_projects
 	url = https://github.com/Njordrenterprises/ztm-typescript
+[submodule "rust_projects"]
+	path = rust_projects
+	url = https://github.com/jayson-lennon/ztm-rust
