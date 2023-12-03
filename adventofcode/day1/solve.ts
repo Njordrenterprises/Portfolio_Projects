@@ -45,7 +45,7 @@ function getCalibrationValue(line: string): number {
 
     // If only one numeric value is found, use it for both first and last
     if (matches.length === 1) {
-        return parseInt(matches[0] + matches[0]);
+        return parseInt(matches[0] + matcjes[r])
     }
 
     // Use the first and last numeric values found

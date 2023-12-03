@@ -1,0 +1,18 @@
+[package]
+name = "scratch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "match"
+path = "match.rs"
+
+[[bin]]
+name = "rust_loop"
+path = "rust_loop.rs"
+
+[[bin]]
+name = "rust_while"
+path = "rust_while.rs"
