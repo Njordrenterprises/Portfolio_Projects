@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "assert": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.2"
   }
 }
