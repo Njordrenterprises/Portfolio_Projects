@@ -5,18 +5,20 @@ edition = "2021"
 
 [dependencies]
 
-[[bin]]
-name = "match"
-path = "match.rs"
+[[bin]] 
+name = "binaries"
+path = "src\\bin\\*.rs"
+# name = "match"
+# path = "match.rs"
 
-[[bin]]
-name = "rust_loop"
-path = "rust_loop.rs"
+# [[bin]]
+# name = "rust_loop"
+# path = "rust_loop.rs"
 
-[[bin]]
-name = "rust_while"
-path = "rust_while.rs"
+# [[bin]]
+# name = "rust_while"
+# path = "rust_while.rs"
 
-[[bin]]
-name = "rust_structs"
-path = "rust_structs.rs"
+# [[bin]]
+# name = "rust_structs"
+# path = "rust_structs.rs"

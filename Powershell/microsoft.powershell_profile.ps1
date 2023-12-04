@@ -41,7 +41,7 @@ function Set-RustScratch {
     Get-ChildItem
 }
 Set-Alias zscratch_rust Set-RustScratch 
-# add list all files in directory replacing cd alias
+# add list all file in directory replacing cd alias
 function CustomCd {
     param(
         [string]$Path
@@ -86,7 +86,7 @@ function New-RustScratchFile {
     lvim $fullPath
 }
 
-Set-Alias -Name scratch rust -Value New-RustScratchFile
+Set-Alias -Name sr -Value New-RustScratchFile
 
 #
 function New-TsScratchFile {
@@ -103,6 +103,6 @@ function New-TsScratchFile {
     lvim $fullPath
 }
 
-Set-Alias -Name scratch typescript -Value New-TsScratchFile
+Set-Alias -Name sts -Value New-TsScratchFile
 
 
