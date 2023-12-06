@@ -1,0 +1,17 @@
+# Compiled files
+scratch/Rust/target
+
+# Uncomment this if you're making a library
+# Cargo.lock
+
+# Editor/IDE files
+/.vscode/
+/.idea/
+/*~
+*.swp
+
+# Other common Rust files
+*.rs.bk
+
+# Environment specific files (if applicable)
+/.env
