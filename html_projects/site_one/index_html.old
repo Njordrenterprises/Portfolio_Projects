@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Features Showcase</title>
+</head>
+<body>
+    <table border="1" width="100%">
+        <tr>
+            <!-- Navigation Column -->
+            <td valign="top">
+                <nav>
+                    <ul>
+                        <li><a href="semantics.html">Semantic Elements</a></li>
+                        <li><a href="graphics.html">Graphics (Canvas & SVG)</a></li>
+                        <li><a href="media.html">Multimedia (Audio & Video)</a></li>
+                        <li><a href="forms.html">New Form Elements</a></li>
+                        <li><a href="geolocation.html">Geolocation</a></li>
+                        <!-- Add more links to other feature pages as needed -->
+                    </ul>
+                </nav>
+            </td>
+
+            <!-- Main Content Column -->
+            <td valign="top">
+                <header>
+                    <h1>Welcome to the HTML5 Features Showcase</h1>
+                </header>
+                <main>
+                    <section>
+                        <h2>About This Showcase</h2>
+                        <p>
+                            This website is a comprehensive guide to HTML5 features.<br>
+                            We explore each feature in detail through dedicated pages,<br>
+                            providing insights and examples. Our aim is to create a helpful<br>
+                            resource for learning and understanding the advancements in HTML5.
+                        </p>
+                    </section>
+                    <section>
+                        <h2>Learn More</h2>
+                        <p>For more detailed tutorials and courses, visit<br>
+                           <a href="https://zerotomastery.io">Zero to Mastery</a>.
+                        </p>
+                        <p>
+                            <a href="https://zerotomastery.io">
+                                <img src="path_to_your_image.jpg" alt="Zero to Mastery">
+                            </a>
+                        </p>
+                    </section>
+                </main>
+                <footer>
+                    <p>Made with Coffee by Njordr</p>
+                </footer>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+

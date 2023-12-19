@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Column Page with HTMX</title>
+    <!-- Include HTMX -->
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body style="margin: 0; padding: 0; display: flex;">
+
+    <!-- Navigation Column (15%) -->
+    <div style="width: 15%; background-color: #f0f0f0; padding: 20px;">
+        <ul>
+            <li>
+                <a href="#" hx-get="https://www.google.com" hx-trigger="click" hx-swap="outerHTML" hx-target="#main-content">Google</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main Column (85%) -->
+    <div id="main-content" style="width: 85%; padding: 20px;">
+        <!-- Content will be loaded here -->
+    </div>
+
+</body>
+</html>
+
