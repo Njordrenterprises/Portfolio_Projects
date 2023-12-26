@@ -8,7 +8,7 @@ fn main () {
     let response = Survey {
         q1: Some(12),
         q2: None, //setting no data
-        q3: Some("A".to_owned()),
+        q3: Some("A".to_owned())
     };
 
     match response.q1 {
